@@ -106,11 +106,11 @@ https://diowillbank.lovable.app
 ## 🧠 Reflexão
 
 ### O que funcionou bem?  
-O design ficou muito bom. No dia 16/02/2026 acabaram meus créditos e não teve como aprimorar as funcionalidades, como armazenamento das informações ou melhorar o design.
+O design ficou muito bom. Poderia trabalhar num refinamento, mas os créditos acabaram. A navegabilidade entre diferentes dispositivos também foi boa.
 
 
 ### O que não funcionou como o esperado?  
-Esperava poder interagir mais vezes gratuitamente com o Lovable, mas as interações feitas já foram de grande valia para aprender mais sobre Vibe Coding.
+Como os créditos acabaram, não consegui resolver um problema de inclusão dos gastos. Mas o chat ficou muito bom e as outras funcionalidades estavam a disposição. 
 
 ### O que aprendi sobre conversar com IAs?  
-Aprendi que é basicamente igual a conversar com uma pessoa: quanto mais detalhes e clareza você dá, melhor é a interação.
+Nossa, que maravilha de aula e aprendizagem. Não conhecia a maioria dos conceitos, como PRD por exemplo, e também algumas ferramentas, como o Lovable. Com certeza irei aprofundar mais sobre os assuntos abordados na aula.
