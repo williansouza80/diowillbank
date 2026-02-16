@@ -103,6 +103,9 @@ Acesse o protótipo funcional no Lovable:
 
 https://diowillbank.lovable.app
 
+https://github.com/williansouza80/dio-lab-vibe-coding-app-financas/edit/main/README.md
+
+
 ## 🧠 Reflexão
 
 ### O que funcionou bem?  
