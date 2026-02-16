@@ -4,7 +4,7 @@ Este projeto foi desenvolvido como um Desafio de Projeto da DIO de Vibe Coding u
 
 ---
 
-1. VISÃO GERAL DO PRODUTO
+## 1. VISÃO GERAL DO PRODUTO
 O Controlador de Gastos Pessoais é uma aplicação digital destinada a auxiliar usuários no registro, organização e acompanhamento de suas despesas financeiras pessoais. O produto prioriza simplicidade, acessibilidade e rapidez, utilizando um chat interativo como principal meio de inclusão de gastos.
 
 2. OBJETIVO DO PRODUTO
@@ -103,7 +103,7 @@ Acesse o protótipo funcional no Lovable:
 
 https://diowillbank.lovable.app
 
-https://github.com/williansouza80/dio-lab-vibe-coding-app-financas/edit/main/README.md
+https://github.com/williansouza80/diowillbank
 
 
 ## 🧠 Reflexão
