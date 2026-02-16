@@ -4,44 +4,91 @@ Este projeto foi desenvolvido como um Desafio de Projeto da DIO de Vibe Coding u
 
 ---
 
-## 📝 PRD Refinado no Copilot Web
+1. VISÃO GERAL DO PRODUTO
+O Controlador de Gastos Pessoais é uma aplicação digital destinada a auxiliar usuários no registro, organização e acompanhamento de suas despesas financeiras pessoais. O produto prioriza simplicidade, acessibilidade e rapidez, utilizando um chat interativo como principal meio de inclusão de gastos.
 
-```markdown
-# PRD - App de Organização Financeira com Conversa Natural
+2. OBJETIVO DO PRODUTO
+- Facilitar o controle financeiro pessoal.
+- Permitir o registro rápido de despesas via chat.
+- Oferecer visualização clara e intuitiva dos gastos.
+- Garantir acessibilidade, responsividade e design universal.
 
-## Visão Geral
-Criar um aplicativo de organização de finanças pessoais que funcione por meio de conversas em linguagem natural.  
-O objetivo é tornar o controle financeiro mais intuitivo, acessível e livre de burocracias como planilhas ou formulários complexos.
+3. PÚBLICO-ALVO
+- Estudantes
+- Profissionais
+- Autônomos
+- Usuários que desejam controle simples das finanças pessoais
 
-## Problema a Resolver
-Muitas pessoas abandonam o controle financeiro por acharem os aplicativos atuais complicados, exigindo entradas manuais e oferecendo pouca personalização.  
-Queremos resolver isso com uma experiência conversacional fluida e recomendações automáticas que se adaptam ao perfil do usuário.
+4. FUNCIONALIDADES PRINCIPAIS
 
-## Público-Alvo
-Pessoas que desejam começar a organizar suas finanças de forma prática e sem complicações — especialmente iniciantes que não têm familiaridade com apps financeiros tradicionais.
+4.1 Chat para Inclusão de Gastos
+- Registro de gastos em linguagem natural (ex: "Gastei R$ 30 com almoço").
+- Identificação automática de valores, datas e categorias.
+- Confirmação do gasto antes de salvar.
+- Possibilidade de edição ou exclusão via chat.
 
-## Funcionalidades-Chave
-1. Registro de gastos via chat: O usuário descreve seus gastos em linguagem natural, como “gastei R$ 30 no mercado”.
-2. Classificação automática de transações: O app identifica e categoriza os gastos com base no texto.
-3. Definição e acompanhamento de metas financeiras: O usuário pode criar metas como “economizar R$ 500 até o fim do mês”.
-4. Dicas personalizadas do Agente Financeiro: Um assistente virtual que sugere formas de economizar com base nos hábitos do usuário.
-5. Relatórios simples e personalizados: Visualizações claras dos gastos, metas e progresso, adaptadas ao estilo do usuário.
+4.2 Dashboard Financeiro
+- Resumo de gastos diários, semanais e mensais.
+- Gráficos simples (pizza e barras).
+- Visualização por categorias.
 
-## Princípio de Design Universal
-A solução será construída com base em Design Universal, garantindo que o aplicativo ofereça uma experiência acessível, intuitiva e inclusiva para o maior número possível de pessoas — independentemente de idade, nível de alfabetização digital, limitações físicas ou cognitivas.  
-Isso inclui:
-- Interface clara e legível
-- Navegação simples e sem sobrecarga de informações
-- Compatibilidade com leitores de tela e comandos por voz
-- Feedbacks visuais e auditivos para facilitar o uso
+4.3 Categorias de Gastos
+- Categorias padrão (Alimentação, Transporte, Lazer, Saúde, Educação).
+- Criação, edição e remoção de categorias personalizadas.
 
-## Entregável da IA
-Gerar um plano de MVP contendo:
-- As principais telas (chat, metas, relatórios)
-- Recursos técnicos necessários (NLP, categorização automática, motor de recomendações)
-- Estratégia de validação inicial com usuários reais
-- Linguagem acessível e tom educativo, em português
-- Aplicação dos princípios de Design Universal desde o protótipo
+4.4 Metas e Alertas
+- Definição de limite mensal de gastos.
+- Alertas quando o limite estiver próximo ou for ultrapassado.
+
+4.5 Responsividade
+- Interface adaptável para mobile, tablet e desktop.
+
+4.6 Design Universal
+- Alto contraste.
+- Compatibilidade com leitores de tela.
+- Navegação simples e intuitiva.
+
+5. REQUISITOS FUNCIONAIS
+RF01 – Permitir registro de gastos via chat.
+RF02 – Identificar automaticamente valores e datas.
+RF03 – Exibir dashboard financeiro.
+RF04 – Permitir gerenciamento de categorias.
+RF05 – Gerar gráficos de gastos.
+RF06 – Permitir definição de metas.
+RF07 – Emitir alertas de limite de gastos.
+RF08 – Permitir edição e exclusão de gastos.
+
+6. REQUISITOS NÃO FUNCIONAIS
+RNF01 – Usabilidade simples e intuitiva.
+RNF02 – Acessibilidade seguindo princípios WCAG.
+RNF03 – Responsividade em múltiplos dispositivos.
+RNF04 – Segurança dos dados do usuário.
+RNF05 – Desempenho rápido do chat.
+
+7. FLUXO DO USUÁRIO
+1. Usuário acessa a aplicação.
+2. Visualiza o dashboard inicial.
+3. Abre o chat.
+4. Informa um gasto em linguagem natural.
+5. Sistema interpreta e solicita confirmação.
+6. Gasto é salvo.
+7. Dashboard é atualizado.
+
+8. ARQUITETURA (ALTO NÍVEL)
+- Frontend: Aplicação web responsiva.
+- Backend: API para processamento e persistência de dados.
+- Banco de Dados: Armazenamento de usuários e gastos.
+
+9. CRITÉRIOS DE ACEITE
+- Registro de gastos via chat funcionando corretamente.
+- Dashboard atualizado automaticamente.
+- Interface responsiva e acessível.
+
+10. EVOLUÇÕES FUTURAS
+- Entrada de gastos por voz.
+- Exportação de relatórios.
+- Sugestões inteligentes de economia.
+
 ```
 
 ---
@@ -50,61 +97,17 @@ Gerar um plano de MVP contendo:
 
 > Crie um App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
 
-> Tentei criar uma meta chamada Reserva de Emergencia, mas ela não apareceu no componente. A impressão que tive foi que apenas o Assistente Financeiro a reconheceu, poderia verificar? Além disso, onde vejo os gráficos e extrato?
-
-> Sim (Quer que eu adicione uma tela de relatórios com gráficos e extrato detalhado das transações?)
-
----
-
 ## 🎯 Resultado Final
 
 Acesse o protótipo funcional no Lovable:  
-**[conversa-fin-amigo.lovable.app](https://conversa-fin-amigo.lovable.app/)**
 
-<img width="1920" height="945" alt="image" src="https://github.com/user-attachments/assets/88ef611d-970e-4377-918a-918714311218" />
-
----
-
-## 🔍 Funcionalidades do App de Organização Financeira
-
-### 1. Dashboard Financeiro
-- Exibe um panorama claro das finanças pessoais:
-  - **Receitas**: Total de ganhos registrados
-  - **Despesas**: Total de gastos
-  - **Saldo**: Diferença entre receitas e despesas
-- Interface simples e direta para facilitar a compreensão
-
-### 2. Assistente Financeiro
-- Personagem conversacional que interage com o usuário
-- Incentiva a conexão de contas e cartões para uma visão completa das finanças
-- Oferece suporte emocional e motivacional
-
-### 3. Registro de Transações via Chat
-- Campo de entrada para o usuário digitar mensagens em linguagem natural
-- Permite registrar gastos e interagir com o assistente de forma fluida
-
-### 4. Metas Financeiras
-- Área dedicada à criação e acompanhamento de objetivos financeiros
-- Sugestão proativa para o usuário definir metas
-- Botão de ação para adicionar novas metas
-
-### 5. Relatórios Personalizados
-- Visualizações simples e adaptadas ao estilo do usuário
-- Acompanhamento de metas e progresso financeiro
-
-### 6. Design Universal
-- Interface acessível e inclusiva:
-  - Linguagem simples
-  - Navegação clara
-  - Compatibilidade com leitores de tela e comandos por voz
-  - Feedbacks visuais e auditivos para facilitar o uso
-
----
+https://diowillbank.lovable.app
 
 ## 🧠 Reflexão
 
 ### O que funcionou bem?  
-O refinamento do PRD previamente feito no Copilot ajudou muito, pois os créditos do Lovable acabaram em apenas 3 interações.
+O design ficou muito bom. No dia 16/02/2026 acabaram meus créditos e não teve como aprimorar as funcionalidades, como armazenamento das informações ou melhorar o design.
+
 
 ### O que não funcionou como o esperado?  
 Esperava poder interagir mais vezes gratuitamente com o Lovable, mas as interações feitas já foram de grande valia para aprender mais sobre Vibe Coding.
